@@ -6,8 +6,8 @@ You may install this on a Windows 10 machine with build 1904 or later (May 2020 
 ## Installing WSL2
 
 - Open Powershell as administrator
-- `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
-- `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+- `wsl --install -d Ubuntu`
+<!---- `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`-->
 - You need to restart your Windows machine (required).
 - Open Powershell as administrator once again
 - `wsl --set-default-version 2`

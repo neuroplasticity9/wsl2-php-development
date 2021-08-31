@@ -20,10 +20,10 @@ You may install this on a Windows 10 machine with build 1904 or later (May 2020 
 
 # Installing dependencies
 
-- `sudo su`
+<!---- `sudo su`
 - `passwd --delete USERNAME`
-- `touch ~/.hushlogin`
-- `add-apt-repository ppa:ondrej/php`
+- `touch ~/.hushlogin`-->
+- `sudo add-apt-repository ppa:ondrej/php`
 - `curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -`
 - `curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
 - `echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list`

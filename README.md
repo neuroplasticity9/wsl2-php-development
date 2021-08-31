@@ -9,14 +9,14 @@ You may install this on a Windows 10 machine with build 1904 or later (May 2020 
 - `wsl --install -d Ubuntu`
 <!---- `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`-->
 - You need to restart your Windows machine (required).
-- Open Powershell as administrator once again
-- `wsl --set-default-version 2`
+<!----- Open Powershell as administrator once again
+- `wsl --set-default-version 2`-->
 - Install Ubuntu from the Microsoft store and launch Ubunto from start
-- WSL will install automatically. Please wait till the username prompt.
+- WSL will install automatically. Please wait till the username prompt.-->
 - Enter your username. We prefer to use our firstname in lowercase format: i.e. John Doe -> username 'john'
 - Password should be 'secret'. We will remove the password later on.
 - Run 'sudo apt update' & 'sudo apt upgrade -y' to update all dependencies
-- WSL2 is installed! Now the dependencies.
+- WSL2 is installed! Now the dependencies
 
 # Installing dependencies
 

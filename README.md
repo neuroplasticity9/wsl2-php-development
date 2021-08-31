@@ -8,7 +8,6 @@ You may install this on a Windows 10 machine with build 1904 or later (May 2020 
 - Open Powershell as administrator
 - `wsl --install -d Ubuntu`
 <!---- `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`-->
-- You need to restart your Windows machine (required).
 <!----- Open Powershell as administrator once again
 - `wsl --set-default-version 2`-->
 - Install Ubuntu from the Microsoft store and launch Ubunto from start

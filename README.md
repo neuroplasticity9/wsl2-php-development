@@ -25,8 +25,8 @@ You may install this on a Windows 10 machine with build 1904 or later (May 2020 
 - `echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list`
 - `apt update`
 - `apt upgrade -y`
-- Install PHP/webserver/database: `sudo apt install -y apt-transport-https php7.4-fpm php7.4-mbstring php7.4-curl php7.4-json php7.4-bz2 php7.4-zip php7.4-xml php7.4-gd php7.4-mysql php7.4-intl php7.4-sqlite3 php7.4-soap php7.4-bcmath php7.4-memcached php7.4-redis nginx mysql-client mysql-server`
-- Or with PHP 8.0: `sudo apt install -y apt-transport-https php8.0-fpm php8.0-mbstring php8.0-curl php8.0-bz2 php8.0-zip php8.0-xml php8.0-gd php8.0-mysql php8.0-intl php8.0-sqlite3 php8.0-soap php8.0-bcmath php8.0-memcached php8.0-redis nginx mysql-client mysql-server`
+- Install PHP7.4/webserver/database: `sudo apt install -y apt-transport-https php7.4-fpm php7.4-mbstring php7.4-curl php7.4-json php7.4-bz2 php7.4-zip php7.4-xml php7.4-gd php7.4-mysql php7.4-intl php7.4-sqlite3 php7.4-soap php7.4-bcmath php7.4-memcached php7.4-redis nginx mysql-client mysql-server`
+- Or with PHP8.0: `sudo apt install -y apt-transport-https php8.0-fpm php8.0-mbstring php8.0-curl php8.0-bz2 php8.0-zip php8.0-xml php8.0-gd php8.0-mysql php8.0-intl php8.0-sqlite3 php8.0-soap php8.0-bcmath php8.0-memcached php8.0-redis nginx mysql-client mysql-server`
 - Optional dependencies: `apt install -y nodejs rlwrap git dos2unix memcached default-jre htop yarn unzip dh-autoreconf redis-server pv ack unoconv`
 - `sudo npm install gulp-cli -g`
 - `locale-gen nl_NL && locale-gen nl_NL.UTF-8 && locale-gen --purge`
